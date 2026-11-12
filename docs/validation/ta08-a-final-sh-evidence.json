@@ -1,0 +1,294 @@
+{
+  "security": "SH.600519",
+  "valuation_at": "2026-11-09T15:00:00+08:00",
+  "announcement_queries": [
+    {
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "method": "POST",
+      "form": {
+        "stock": "600519,gssh0600519",
+        "tabName": "fulltext",
+        "pageSize": 30,
+        "pageNum": 1,
+        "column": "sse",
+        "seDate": "2026-09-30~2026-11-11"
+      },
+      "retrieved_at": "2026-11-11T15:09:12+08:00",
+      "raw_response": {
+        "classifiedAnnouncements": null,
+        "totalSecurities": 0,
+        "totalAnnouncement": 5,
+        "totalRecordNum": 5,
+        "announcements": [
+          {
+            "id": null,
+            "secCode": "600519",
+            "secName": "贵州茅台",
+            "orgId": "gssh0600519",
+            "announcementId": "1225652625",
+            "announcementTitle": "贵州茅台关于召开2026年第三季度业绩说明会的公告",
+            "announcementTime": 1793635200000,
+            "adjunctUrl": "finalpage/2026-11-03/1225652625.PDF",
+            "adjunctSize": 119,
+            "adjunctType": "PDF",
+            "storageTime": null,
+            "columnId": "250401||251302",
+            "pageColumn": "SHZB",
+            "announcementType": "01010503||010113||012399",
+            "associateAnnouncement": null,
+            "important": null,
+            "batchNum": null,
+            "announcementContent": "",
+            "orgName": null,
+            "tileSecName": "贵州茅台",
+            "shortTitle": "贵州茅台关于召开2026年第三季度业绩说明会的公告",
+            "announcementTypeName": null,
+            "secNameList": null
+          },
+          {
+            "id": null,
+            "secCode": "600519",
+            "secName": "贵州茅台",
+            "orgId": "gssh0600519",
+            "announcementId": "1225649906",
+            "announcementTitle": "贵州茅台2026年第三季度主要经营数据公告",
+            "announcementTime": 1793376000000,
+            "adjunctUrl": "finalpage/2026-10-31/1225649906.PDF",
+            "adjunctSize": 86,
+            "adjunctType": "PDF",
+            "storageTime": null,
+            "columnId": "250401||251302",
+            "pageColumn": "SHZB",
+            "announcementType": "01010503||010113||012305",
+            "associateAnnouncement": null,
+            "important": null,
+            "batchNum": null,
+            "announcementContent": "",
+            "orgName": null,
+            "tileSecName": "贵州茅台",
+            "shortTitle": "贵州茅台2026年第三季度主要经营数据公告",
+            "announcementTypeName": null,
+            "secNameList": null
+          },
+          {
+            "id": null,
+            "secCode": "600519",
+            "secName": "贵州茅台",
+            "orgId": "gssh0600519",
+            "announcementId": "1225649903",
+            "announcementTitle": "贵州茅台第五届董事会2026年度第七次会议决议公告",
+            "announcementTime": 1793376000000,
+            "adjunctUrl": "finalpage/2026-10-31/1225649903.PDF",
+            "adjunctSize": 104,
+            "adjunctType": "PDF",
+            "storageTime": null,
+            "columnId": "250401||251302",
+            "pageColumn": "SHZB",
+            "announcementType": "01010503||010113||01239901",
+            "associateAnnouncement": null,
+            "important": null,
+            "batchNum": null,
+            "announcementContent": "",
+            "orgName": null,
+            "tileSecName": "贵州茅台",
+            "shortTitle": "贵州茅台第五届董事会2026年度第七次会议决议公告",
+            "announcementTypeName": null,
+            "secNameList": null
+          },
+          {
+            "id": null,
+            "secCode": "600519",
+            "secName": "贵州茅台",
+            "orgId": "gssh0600519",
+            "announcementId": "1225649901",
+            "announcementTitle": "贵州茅台关于公司高级管理人员2026年度薪酬兑现方案的公告",
+            "announcementTime": 1793376000000,
+            "adjunctUrl": "finalpage/2026-10-31/1225649901.PDF",
+            "adjunctSize": 104,
+            "adjunctType": "PDF",
+            "storageTime": null,
+            "columnId": "250401||251302",
+            "pageColumn": "SHZB",
+            "announcementType": "01010503||010113||012399",
+            "associateAnnouncement": null,
+            "important": null,
+            "batchNum": null,
+            "announcementContent": "",
+            "orgName": null,
+            "tileSecName": "贵州茅台",
+            "shortTitle": "贵州茅台关于公司高级管理人员2026年度薪酬兑现方案的公告",
+            "announcementTypeName": null,
+            "secNameList": null
+          },
+          {
+            "id": null,
+            "secCode": "600519",
+            "secName": "贵州茅台",
+            "orgId": "gssh0600519",
+            "announcementId": "1225649896",
+            "announcementTitle": "贵州茅台2026年第三季度报告",
+            "announcementTime": 1793376000000,
+            "adjunctUrl": "finalpage/2026-10-31/1225649896.PDF",
+            "adjunctSize": 190,
+            "adjunctType": "PDF",
+            "storageTime": null,
+            "columnId": "250401||251302",
+            "pageColumn": "SHZB",
+            "announcementType": "01010501||01010503||010113||010307",
+            "associateAnnouncement": null,
+            "important": null,
+            "batchNum": null,
+            "announcementContent": "",
+            "orgName": null,
+            "tileSecName": "贵州茅台",
+            "shortTitle": "贵州茅台2026年第三季度报告",
+            "announcementTypeName": null,
+            "secNameList": null
+          }
+        ],
+        "categoryList": null,
+        "hasMore": false,
+        "totalpages": 0
+      }
+    },
+    {
+      "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+      "method": "POST",
+      "form": {
+        "stock": "600519,gssh0600519",
+        "tabName": "fulltext",
+        "pageSize": 30,
+        "pageNum": 1,
+        "column": "sse",
+        "seDate": "2026-11-01~2026-11-11"
+      },
+      "retrieved_at": "2026-11-11T15:08:39+08:00",
+      "raw_response": {
+        "classifiedAnnouncements": null,
+        "totalSecurities": 0,
+        "totalAnnouncement": 1,
+        "totalRecordNum": 1,
+        "announcements": [
+          {
+            "id": null,
+            "secCode": "600519",
+            "secName": "贵州茅台",
+            "orgId": "gssh0600519",
+            "announcementId": "1225652625",
+            "announcementTitle": "贵州茅台关于召开2026年第三季度业绩说明会的公告",
+            "announcementTime": 1793635200000,
+            "adjunctUrl": "finalpage/2026-11-03/1225652625.PDF",
+            "adjunctSize": 119,
+            "adjunctType": "PDF",
+            "storageTime": null,
+            "columnId": "250401||251302",
+            "pageColumn": "SHZB",
+            "announcementType": "01010503||010113||012399",
+            "associateAnnouncement": null,
+            "important": null,
+            "batchNum": null,
+            "announcementContent": "",
+            "orgName": null,
+            "tileSecName": "贵州茅台",
+            "shortTitle": "贵州茅台关于召开2026年第三季度业绩说明会的公告",
+            "announcementTypeName": null,
+            "secNameList": null
+          }
+        ],
+        "categoryList": null,
+        "hasMore": false,
+        "totalpages": 0
+      }
+    }
+  ],
+  "official_documents": [
+    {
+      "path": "ta08-a-final-sh-disclosures/2026-q3.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649896.PDF",
+      "sha256": "96ba51ebf414f841bce79b3ba019927df2f795142392e12e96a9d559e96ebb9b",
+      "retrieved_at": "2026-11-11T15:09:43+08:00"
+    },
+    {
+      "path": "ta08-a-final-sh-disclosures/2026-h1.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475868.PDF",
+      "sha256": "0e10aa26be46b1cf3cd03f06e834c7fb98d5dd0d661b96f8fddd4af7e846a4f6",
+      "retrieved_at": "2026-11-11T15:09:44+08:00"
+    },
+    {
+      "path": "ta08-a-final-sh-disclosures/2026-cancellation.pdf",
+      "url": "https://www.moutaichina.com/mtgf/articleFileDir/2026-06/12/d7a4edcf1975466585f4c631bfa3296f.pdf",
+      "sha256": "3acf8ec31b3b5c6478c85cf4cd8f787ff95c1bf41e39b1b1822bee3a500776e3",
+      "retrieved_at": "2026-11-11T15:09:44+08:00"
+    },
+    {
+      "path": "ta08-a-final-sh-disclosures/2026-repurchase-result.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-05-28/1225333825.PDF",
+      "sha256": "c3d2cf8322ad4b8d8b69c914a0afd265bf0f85cdaa1f023d00109caa0a9721c1",
+      "retrieved_at": "2026-11-11T15:09:45+08:00"
+    },
+    {
+      "path": "ta08-a-final-sh-disclosures/2026-q3-briefing.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-03/1225652625.PDF",
+      "sha256": "565e9e36441e0dd59da36b23439f0f7d9df6b94f0bc6fa122fc64de1ad2c421a",
+      "retrieved_at": "2026-11-11T15:09:45+08:00"
+    },
+    {
+      "path": "ta08-a-final-sh-disclosures/2026-q3-operations.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649906.PDF",
+      "sha256": "97a72f8015a116aa370abb2a9ca2b926215e54b77509d4932537b3e82d5fada9",
+      "retrieved_at": "2026-11-11T15:09:45+08:00"
+    },
+    {
+      "path": "ta08-a-final-sh-disclosures/2026-q3-board.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649903.PDF",
+      "sha256": "b29ff9556d09f948ab9444cbb03ec0862d0b12b03a95b3f621b6ba07f67e00ae",
+      "retrieved_at": "2026-11-11T15:09:45+08:00"
+    },
+    {
+      "path": "ta08-a-final-sh-disclosures/2026-management-compensation.pdf",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-31/1225649901.PDF",
+      "sha256": "d2c3124a0b337fab2e9332c148cd3565ca6dd19ae33239b378bfaf32ac23a992",
+      "retrieved_at": "2026-11-11T15:09:46+08:00"
+    }
+  ],
+  "observations": {
+    "cancellation": {
+      "settlement_registry_event_date": "2026-05-28",
+      "issuer_confirmation_publication_date": "2026-06-12",
+      "shares_before": 1252270215,
+      "cancelled_shares": 2188614,
+      "shares_after": 1250081601,
+      "share_class": "人民币普通股（A 股）",
+      "scope": "注销后全部发行股份；不以流通股本代替总股本",
+      "repurchase_completed": "2026-05-27",
+      "repurchase_result_publication_date": "2026-05-28",
+      "post_cancellation_unrestricted_shares": 1250081601,
+      "post_cancellation_restricted_shares": 0,
+      "post_cancellation_buyback_account_shares": 0,
+      "document_reconciliation": "临2026-021第3页列示拟注销后的股份分类和回购专用账户股数。临2026-025确认该批股份已于5月28日在中登实际注销。"
+    },
+    "quarter_end": {
+      "date": "2026-09-30",
+      "paid_in_share_capital_cny": 1250081601,
+      "treasury_stock_current_column": "blank",
+      "treasury_stock_prior_year_cny": 120112601.53
+    },
+    "qualifications": [
+      "披露索引返回的毫秒字段按公告日期使用，非精确的实际发布时间。",
+      "公告索引覆盖三季度末至目标收盘前后；该证据证明公开披露检索覆盖，未取得目标收盘时点中登账户逐笔流水。",
+      "2026 年三季报库存股期末列为空，不能将其引用为填报了数值 0。"
+    ],
+    "post_quarter_disclosure_review": {
+      "scope": "巨潮公告全量结果中，公告日期在2026-09-30至2026-11-11的贵州茅台公开公告",
+      "record_count": 5,
+      "reviewed_pdfs": {
+        "1225649896": "三季报记录2026-09-30股本和库存股列",
+        "1225649906": "按品类、渠道、地区列示经营数据与经销商变动",
+        "1225649903": "审议三季报、经理层任期制、修订公司担保管理办法",
+        "1225649901": "高级管理人员薪酬兑现方案",
+        "1225652625": "三季度业绩说明会安排"
+      },
+      "result": "未发现报告期末至目标时点需要进一步调整股数或替换正式财报版本的公开公告。"
+    }
+  }
+}

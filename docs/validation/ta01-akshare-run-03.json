@@ -1,0 +1,747 @@
+{
+  "as_of": "2026-11-10T02:00:00+08:00",
+  "evidence_schema": 2,
+  "started_at": "2026-11-10T02:07:27+08:00",
+  "finished_at": "2026-11-10T02:07:45+08:00",
+  "environment": {
+    "python": "3.12.3",
+    "system": "Darwin",
+    "macos": "14.1.1",
+    "machine": "x86_64",
+    "akshare": "1.20.36",
+    "pandas": "3.1.1"
+  },
+  "timeout_seconds": 35,
+  "workers": 2,
+  "results": [
+    {
+      "key": "list.SZ",
+      "market": "SZ",
+      "group": "directory",
+      "source": "SZSE",
+      "interface": "stock_info_sz_name_code",
+      "params": {
+        "symbol": "A股列表"
+      },
+      "date_field": "A股上市日期",
+      "fields": [
+        "A股简称",
+        "板块"
+      ],
+      "key_field": "A股代码",
+      "symbols": [
+        "000333",
+        "000001",
+        "300750",
+        "301660"
+      ],
+      "focus_dates": [],
+      "as_of": "2026-11-10T02:00:00+08:00",
+      "started_at": "2026-11-10T02:07:27+08:00",
+      "finished_at": "2026-11-10T02:07:32+08:00",
+      "elapsed_seconds": 5.461,
+      "status": "returned",
+      "rows": 2906,
+      "columns": [
+        "板块",
+        "A股代码",
+        "A股简称",
+        "A股上市日期",
+        "A股总股本",
+        "A股流通股本",
+        "所属行业"
+      ],
+      "absent_fields": [],
+      "null_counts": {
+        "A股代码": 0,
+        "A股上市日期": 0,
+        "A股简称": 0,
+        "板块": 0
+      },
+      "symbol_matches": {
+        "000333": 1,
+        "000001": 1,
+        "300750": 1,
+        "301660": 1
+      },
+      "first_date": "1991-01-29",
+      "last_date": "2026-11-03",
+      "distinct_dates": 1737,
+      "invalid_dates": 0,
+      "dates_after_as_of": 0,
+      "sample": [
+        {
+          "A股代码": "301660",
+          "A股上市日期": "2026-10-13",
+          "A股简称": "粤芯半导体-U",
+          "板块": "创业板"
+        },
+        {
+          "A股代码": "300750",
+          "A股上市日期": "2018-06-11",
+          "A股简称": "宁德时代",
+          "板块": "创业板"
+        },
+        {
+          "A股代码": "000333",
+          "A股上市日期": "2013-09-18",
+          "A股简称": "美的集团",
+          "板块": "主板"
+        }
+      ]
+    },
+    {
+      "key": "revision.actual.annual.cninfo",
+      "market": "SH",
+      "group": "disclosure",
+      "source": "CNInfo",
+      "interface": "stock_zh_a_disclosure_report_cninfo",
+      "params": {
+        "symbol": "600368",
+        "market": "沪深京",
+        "keyword": "会计差错",
+        "start_date": "20251219",
+        "end_date": "20251222"
+      },
+      "date_field": "公告时间",
+      "fields": [
+        "代码",
+        "公告标题",
+        "公告链接"
+      ],
+      "key_field": null,
+      "symbols": [],
+      "focus_dates": [],
+      "as_of": "2026-11-10T02:00:00+08:00",
+      "started_at": "2026-11-10T02:07:27+08:00",
+      "finished_at": "2026-11-10T02:07:30+08:00",
+      "elapsed_seconds": 2.715,
+      "status": "returned",
+      "rows": 3,
+      "columns": [
+        "代码",
+        "简称",
+        "公告标题",
+        "公告时间",
+        "公告链接"
+      ],
+      "absent_fields": [],
+      "null_counts": {
+        "公告时间": 0,
+        "代码": 0,
+        "公告标题": 0,
+        "公告链接": 0
+      },
+      "first_date": "2025-12-20",
+      "last_date": "2025-12-20",
+      "distinct_dates": 1,
+      "invalid_dates": 0,
+      "dates_after_as_of": 0,
+      "sample": [
+        {
+          "公告时间": "2025-12-20",
+          "代码": "600368",
+          "公告标题": "五洲交通关于对前期<em>会计</em><em>差错</em>更正及追溯调整的公告",
+          "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600368&announcementId=1224888631&orgId=gssh0600368&announcementTime=2025-12-20"
+        },
+        {
+          "公告时间": "2025-12-20",
+          "代码": "600368",
+          "公告标题": "关于广西五洲交通股份有限公司前期<em>会计</em><em>差错</em>更正的专项鉴证报告",
+          "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600368&announcementId=1224888630&orgId=gssh0600368&announcementTime=2025-12-20"
+        },
+        {
+          "公告时间": "2025-12-20",
+          "代码": "600368",
+          "公告标题": "五洲交通关于前期<em>会计</em><em>差错</em>更正及追溯调整后的财务报表及附注",
+          "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600368&announcementId=1224888629&orgId=gssh0600368&announcementTime=2025-12-20"
+        }
+      ]
+    },
+    {
+      "key": "revision.actual.annual.eastmoney",
+      "market": "SH",
+      "group": "disclosure",
+      "source": "Eastmoney",
+      "interface": "stock_individual_notice_report",
+      "params": {
+        "security": "600368",
+        "symbol": "全部",
+        "begin_date": "20251219",
+        "end_date": "20251222"
+      },
+      "date_field": "公告日期",
+      "fields": [
+        "代码",
+        "公告标题",
+        "公告类型",
+        "网址"
+      ],
+      "key_field": null,
+      "symbols": [],
+      "focus_dates": [],
+      "as_of": "2026-11-10T02:00:00+08:00",
+      "started_at": "2026-11-10T02:07:30+08:00",
+      "finished_at": "2026-11-10T02:07:31+08:00",
+      "elapsed_seconds": 1.276,
+      "status": "returned",
+      "rows": 5,
+      "columns": [
+        "代码",
+        "名称",
+        "公告标题",
+        "公告类型",
+        "公告日期",
+        "网址"
+      ],
+      "absent_fields": [],
+      "null_counts": {
+        "公告日期": 0,
+        "代码": 0,
+        "公告标题": 0,
+        "公告类型": 0,
+        "网址": 0
+      },
+      "first_date": "2025-12-20",
+      "last_date": "2025-12-20",
+      "distinct_dates": 1,
+      "invalid_dates": 0,
+      "dates_after_as_of": 0,
+      "sample": [
+        {
+          "公告日期": "2025-12-20",
+          "代码": "600368",
+          "公告标题": "五洲交通:五洲交通关于广西证监局对公司采取责令改正措施的整改报告",
+          "公告类型": "整改报告",
+          "网址": "https://data.eastmoney.com/notices/detail/600368/AN202512191803887736.html"
+        },
+        {
+          "公告日期": "2025-12-20",
+          "代码": "600368",
+          "公告标题": "五洲交通:五洲交通关于前期会计差错更正及追溯调整后的财务报表及附注",
+          "公告类型": "会计差错更正公告",
+          "网址": "https://data.eastmoney.com/notices/detail/600368/AN202512191803887735.html"
+        },
+        {
+          "公告日期": "2025-12-20",
+          "代码": "600368",
+          "公告标题": "五洲交通:关于广西五洲交通股份有限公司前期会计差错更正的专项鉴证报告",
+          "公告类型": "保荐/核查意见",
+          "网址": "https://data.eastmoney.com/notices/detail/600368/AN202512191803887734.html"
+        }
+      ]
+    },
+    {
+      "key": "revision.actual.interim.cninfo",
+      "market": "SH",
+      "group": "disclosure",
+      "source": "CNInfo",
+      "interface": "stock_zh_a_disclosure_report_cninfo",
+      "params": {
+        "symbol": "600368",
+        "market": "沪深京",
+        "keyword": "会计差错",
+        "start_date": "20260402",
+        "end_date": "20260407"
+      },
+      "date_field": "公告时间",
+      "fields": [
+        "代码",
+        "公告标题",
+        "公告链接"
+      ],
+      "key_field": null,
+      "symbols": [],
+      "focus_dates": [],
+      "as_of": "2026-11-10T02:00:00+08:00",
+      "started_at": "2026-11-10T02:07:31+08:00",
+      "finished_at": "2026-11-10T02:07:33+08:00",
+      "elapsed_seconds": 1.674,
+      "status": "returned",
+      "rows": 2,
+      "columns": [
+        "代码",
+        "简称",
+        "公告标题",
+        "公告时间",
+        "公告链接"
+      ],
+      "absent_fields": [],
+      "null_counts": {
+        "公告时间": 0,
+        "代码": 0,
+        "公告标题": 0,
+        "公告链接": 0
+      },
+      "first_date": "2026-04-04",
+      "last_date": "2026-04-04",
+      "distinct_dates": 1,
+      "invalid_dates": 0,
+      "dates_after_as_of": 0,
+      "sample": [
+        {
+          "公告时间": "2026-04-04",
+          "代码": "600368",
+          "公告标题": "五洲交通关于前期<em>会计</em><em>差错</em>更正的公告",
+          "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600368&announcementId=1225080163&orgId=gssh0600368&announcementTime=2026-04-04"
+        },
+        {
+          "公告时间": "2026-04-04",
+          "代码": "600368",
+          "公告标题": "五洲交通前期<em>会计</em><em>差错</em>更正后的财务报表及附注",
+          "公告链接": "http://www.cninfo.com.cn/new/disclosure/detail?stockCode=600368&announcementId=1225080133&orgId=gssh0600368&announcementTime=2026-04-04"
+        }
+      ]
+    },
+    {
+      "key": "revision.actual.interim.eastmoney",
+      "market": "SH",
+      "group": "disclosure",
+      "source": "Eastmoney",
+      "interface": "stock_individual_notice_report",
+      "params": {
+        "security": "600368",
+        "symbol": "全部",
+        "begin_date": "20260402",
+        "end_date": "20260407"
+      },
+      "date_field": "公告日期",
+      "fields": [
+        "代码",
+        "公告标题",
+        "公告类型",
+        "网址"
+      ],
+      "key_field": null,
+      "symbols": [],
+      "focus_dates": [],
+      "as_of": "2026-11-10T02:00:00+08:00",
+      "started_at": "2026-11-10T02:07:32+08:00",
+      "finished_at": "2026-11-10T02:07:34+08:00",
+      "elapsed_seconds": 1.287,
+      "status": "returned",
+      "rows": 8,
+      "columns": [
+        "代码",
+        "名称",
+        "公告标题",
+        "公告类型",
+        "公告日期",
+        "网址"
+      ],
+      "absent_fields": [],
+      "null_counts": {
+        "公告日期": 0,
+        "代码": 0,
+        "公告标题": 0,
+        "公告类型": 0,
+        "网址": 0
+      },
+      "first_date": "2026-04-04",
+      "last_date": "2026-04-04",
+      "distinct_dates": 1,
+      "invalid_dates": 0,
+      "dates_after_as_of": 0,
+      "sample": [
+        {
+          "公告日期": "2026-04-04",
+          "代码": "600368",
+          "公告标题": "五洲交通:五洲交通关于前期会计差错更正的公告",
+          "公告类型": "会计差错更正公告",
+          "网址": "https://data.eastmoney.com/notices/detail/600368/AN202604031821016181.html"
+        },
+        {
+          "公告日期": "2026-04-04",
+          "代码": "600368",
+          "公告标题": "五洲交通:五洲交通信息披露事务管理制度(2026年修订)",
+          "公告类型": "管理办法/制度",
+          "网址": "https://data.eastmoney.com/notices/detail/600368/AN202604031821016183.html"
+        },
+        {
+          "公告日期": "2026-04-04",
+          "代码": "600368",
+          "公告标题": "五洲交通:五洲交通第十一届董事会第三次会议决议公告",
+          "公告类型": "董事会决议公告",
+          "网址": "https://data.eastmoney.com/notices/detail/600368/AN202604031821016182.html"
+        }
+      ]
+    },
+    {
+      "key": "revision.statement",
+      "market": "SH",
+      "group": "income",
+      "source": "Eastmoney",
+      "interface": "stock_profit_sheet_by_report_em",
+      "params": {
+        "symbol": "SH600368"
+      },
+      "date_field": "REPORT_DATE",
+      "fields": [
+        "SECURITY_CODE",
+        "REPORT_TYPE",
+        "NOTICE_DATE",
+        "UPDATE_DATE",
+        "TOTAL_OPERATE_INCOME",
+        "OPERATE_COST",
+        "NETPROFIT",
+        "PARENT_NETPROFIT"
+      ],
+      "key_field": null,
+      "symbols": [],
+      "focus_dates": [
+        "2024-12-31",
+        "2025-09-30"
+      ],
+      "as_of": "2026-11-10T02:00:00+08:00",
+      "started_at": "2026-11-10T02:07:33+08:00",
+      "finished_at": "2026-11-10T02:07:38+08:00",
+      "elapsed_seconds": 5.437,
+      "status": "returned",
+      "rows": 107,
+      "columns": [
+        "SECUCODE",
+        "SECURITY_CODE",
+        "SECURITY_NAME_ABBR",
+        "ORG_CODE",
+        "ORG_TYPE",
+        "REPORT_DATE",
+        "REPORT_TYPE",
+        "REPORT_DATE_NAME",
+        "SECURITY_TYPE_CODE",
+        "NOTICE_DATE",
+        "UPDATE_DATE",
+        "CURRENCY",
+        "TOTAL_OPERATE_INCOME",
+        "TOTAL_OPERATE_INCOME_YOY",
+        "OPERATE_INCOME",
+        "OPERATE_INCOME_YOY",
+        "INTEREST_INCOME",
+        "INTEREST_INCOME_YOY",
+        "EARNED_PREMIUM",
+        "EARNED_PREMIUM_YOY",
+        "FEE_COMMISSION_INCOME",
+        "FEE_COMMISSION_INCOME_YOY",
+        "OTHER_BUSINESS_INCOME",
+        "OTHER_BUSINESS_INCOME_YOY",
+        "TOI_OTHER",
+        "TOI_OTHER_YOY",
+        "TOTAL_OPERATE_COST",
+        "TOTAL_OPERATE_COST_YOY",
+        "OPERATE_COST",
+        "OPERATE_COST_YOY",
+        "INTEREST_EXPENSE",
+        "INTEREST_EXPENSE_YOY",
+        "FEE_COMMISSION_EXPENSE",
+        "FEE_COMMISSION_EXPENSE_YOY",
+        "RESEARCH_EXPENSE",
+        "RESEARCH_EXPENSE_YOY",
+        "SURRENDER_VALUE",
+        "SURRENDER_VALUE_YOY",
+        "NET_COMPENSATE_EXPENSE",
+        "NET_COMPENSATE_EXPENSE_YOY",
+        "NET_CONTRACT_RESERVE",
+        "NET_CONTRACT_RESERVE_YOY",
+        "POLICY_BONUS_EXPENSE",
+        "POLICY_BONUS_EXPENSE_YOY",
+        "REINSURE_EXPENSE",
+        "REINSURE_EXPENSE_YOY",
+        "OTHER_BUSINESS_COST",
+        "OTHER_BUSINESS_COST_YOY",
+        "OPERATE_TAX_ADD",
+        "OPERATE_TAX_ADD_YOY",
+        "SALE_EXPENSE",
+        "SALE_EXPENSE_YOY",
+        "MANAGE_EXPENSE",
+        "MANAGE_EXPENSE_YOY",
+        "ME_RESEARCH_EXPENSE",
+        "ME_RESEARCH_EXPENSE_YOY",
+        "FINANCE_EXPENSE",
+        "FINANCE_EXPENSE_YOY",
+        "FE_INTEREST_EXPENSE",
+        "FE_INTEREST_EXPENSE_YOY",
+        "FE_INTEREST_INCOME",
+        "FE_INTEREST_INCOME_YOY",
+        "ASSET_IMPAIRMENT_LOSS",
+        "ASSET_IMPAIRMENT_LOSS_YOY",
+        "CREDIT_IMPAIRMENT_LOSS",
+        "CREDIT_IMPAIRMENT_LOSS_YOY",
+        "TOC_OTHER",
+        "TOC_OTHER_YOY",
+        "FAIRVALUE_CHANGE_INCOME",
+        "FAIRVALUE_CHANGE_INCOME_YOY",
+        "INVEST_INCOME",
+        "INVEST_INCOME_YOY",
+        "INVEST_JOINT_INCOME",
+        "INVEST_JOINT_INCOME_YOY",
+        "NET_EXPOSURE_INCOME",
+        "NET_EXPOSURE_INCOME_YOY",
+        "EXCHANGE_INCOME",
+        "EXCHANGE_INCOME_YOY",
+        "ASSET_DISPOSAL_INCOME",
+        "ASSET_DISPOSAL_INCOME_YOY",
+        "ASSET_IMPAIRMENT_INCOME",
+        "ASSET_IMPAIRMENT_INCOME_YOY",
+        "CREDIT_IMPAIRMENT_INCOME",
+        "CREDIT_IMPAIRMENT_INCOME_YOY",
+        "OTHER_INCOME",
+        "OTHER_INCOME_YOY",
+        "OPERATE_PROFIT_OTHER",
+        "OPERATE_PROFIT_OTHER_YOY",
+        "OPERATE_PROFIT_BALANCE",
+        "OPERATE_PROFIT_BALANCE_YOY",
+        "OPERATE_PROFIT",
+        "OPERATE_PROFIT_YOY",
+        "NONBUSINESS_INCOME",
+        "NONBUSINESS_INCOME_YOY",
+        "NONCURRENT_DISPOSAL_INCOME",
+        "NONCURRENT_DISPOSAL_INCOME_YOY",
+        "NONBUSINESS_EXPENSE",
+        "NONBUSINESS_EXPENSE_YOY",
+        "NONCURRENT_DISPOSAL_LOSS",
+        "NONCURRENT_DISPOSAL_LOSS_YOY",
+        "EFFECT_TP_OTHER",
+        "EFFECT_TP_OTHER_YOY",
+        "TOTAL_PROFIT_BALANCE",
+        "TOTAL_PROFIT_BALANCE_YOY",
+        "TOTAL_PROFIT",
+        "TOTAL_PROFIT_YOY",
+        "INCOME_TAX",
+        "INCOME_TAX_YOY",
+        "EFFECT_NETPROFIT_OTHER",
+        "EFFECT_NETPROFIT_OTHER_YOY",
+        "EFFECT_NETPROFIT_BALANCE",
+        "EFFECT_NETPROFIT_BALANCE_YOY",
+        "UNCONFIRM_INVEST_LOSS",
+        "UNCONFIRM_INVEST_LOSS_YOY",
+        "NETPROFIT",
+        "NETPROFIT_YOY",
+        "PRECOMBINE_PROFIT",
+        "PRECOMBINE_PROFIT_YOY",
+        "CONTINUED_NETPROFIT",
+        "CONTINUED_NETPROFIT_YOY",
+        "DISCONTINUED_NETPROFIT",
+        "DISCONTINUED_NETPROFIT_YOY",
+        "PARENT_NETPROFIT",
+        "PARENT_NETPROFIT_YOY",
+        "MINORITY_INTEREST",
+        "MINORITY_INTEREST_YOY",
+        "DEDUCT_PARENT_NETPROFIT",
+        "DEDUCT_PARENT_NETPROFIT_YOY",
+        "NETPROFIT_OTHER",
+        "NETPROFIT_OTHER_YOY",
+        "NETPROFIT_BALANCE",
+        "NETPROFIT_BALANCE_YOY",
+        "BASIC_EPS",
+        "BASIC_EPS_YOY",
+        "DILUTED_EPS",
+        "DILUTED_EPS_YOY",
+        "OTHER_COMPRE_INCOME",
+        "OTHER_COMPRE_INCOME_YOY",
+        "PARENT_OCI",
+        "PARENT_OCI_YOY",
+        "MINORITY_OCI",
+        "MINORITY_OCI_YOY",
+        "PARENT_OCI_OTHER",
+        "PARENT_OCI_OTHER_YOY",
+        "PARENT_OCI_BALANCE",
+        "PARENT_OCI_BALANCE_YOY",
+        "UNABLE_OCI",
+        "UNABLE_OCI_YOY",
+        "CREDITRISK_FAIRVALUE_CHANGE",
+        "CREDITRISK_FAIRVALUE_CHANGE_YOY",
+        "OTHERRIGHT_FAIRVALUE_CHANGE",
+        "OTHERRIGHT_FAIRVALUE_CHANGE_YOY",
+        "SETUP_PROFIT_CHANGE",
+        "SETUP_PROFIT_CHANGE_YOY",
+        "RIGHTLAW_UNABLE_OCI",
+        "RIGHTLAW_UNABLE_OCI_YOY",
+        "UNABLE_OCI_OTHER",
+        "UNABLE_OCI_OTHER_YOY",
+        "UNABLE_OCI_BALANCE",
+        "UNABLE_OCI_BALANCE_YOY",
+        "ABLE_OCI",
+        "ABLE_OCI_YOY",
+        "RIGHTLAW_ABLE_OCI",
+        "RIGHTLAW_ABLE_OCI_YOY",
+        "AFA_FAIRVALUE_CHANGE",
+        "AFA_FAIRVALUE_CHANGE_YOY",
+        "HMI_AFA",
+        "HMI_AFA_YOY",
+        "CASHFLOW_HEDGE_VALID",
+        "CASHFLOW_HEDGE_VALID_YOY",
+        "CREDITOR_FAIRVALUE_CHANGE",
+        "CREDITOR_FAIRVALUE_CHANGE_YOY",
+        "CREDITOR_IMPAIRMENT_RESERVE",
+        "CREDITOR_IMPAIRMENT_RESERVE_YOY",
+        "FINANCE_OCI_AMT",
+        "FINANCE_OCI_AMT_YOY",
+        "CONVERT_DIFF",
+        "CONVERT_DIFF_YOY",
+        "ABLE_OCI_OTHER",
+        "ABLE_OCI_OTHER_YOY",
+        "ABLE_OCI_BALANCE",
+        "ABLE_OCI_BALANCE_YOY",
+        "OCI_OTHER",
+        "OCI_OTHER_YOY",
+        "OCI_BALANCE",
+        "OCI_BALANCE_YOY",
+        "TOTAL_COMPRE_INCOME",
+        "TOTAL_COMPRE_INCOME_YOY",
+        "PARENT_TCI",
+        "PARENT_TCI_YOY",
+        "MINORITY_TCI",
+        "MINORITY_TCI_YOY",
+        "PRECOMBINE_TCI",
+        "PRECOMBINE_TCI_YOY",
+        "EFFECT_TCI_BALANCE",
+        "EFFECT_TCI_BALANCE_YOY",
+        "TCI_OTHER",
+        "TCI_OTHER_YOY",
+        "TCI_BALANCE",
+        "TCI_BALANCE_YOY",
+        "ACF_END_INCOME",
+        "ACF_END_INCOME_YOY",
+        "OPINION_TYPE"
+      ],
+      "absent_fields": [],
+      "null_counts": {
+        "REPORT_DATE": 0,
+        "SECURITY_CODE": 0,
+        "REPORT_TYPE": 0,
+        "NOTICE_DATE": 0,
+        "UPDATE_DATE": 0,
+        "TOTAL_OPERATE_INCOME": 0,
+        "OPERATE_COST": 1,
+        "NETPROFIT": 0,
+        "PARENT_NETPROFIT": 0
+      },
+      "first_date": "1997-12-31",
+      "last_date": "2026-09-30",
+      "distinct_dates": 107,
+      "invalid_dates": 0,
+      "dates_after_as_of": 0,
+      "focused_rows": {
+        "2024-12-31": {
+          "count": 1,
+          "sample": [
+            {
+              "REPORT_DATE": "2024-12-31 00:00:00",
+              "SECURITY_CODE": "600368",
+              "REPORT_TYPE": "年报",
+              "NOTICE_DATE": "2025-03-29 00:00:00",
+              "UPDATE_DATE": "2026-04-18 00:00:00",
+              "TOTAL_OPERATE_INCOME": 1562610519.04,
+              "OPERATE_COST": 661999083.76,
+              "NETPROFIT": 694149505.79,
+              "PARENT_NETPROFIT": 698233497.46
+            }
+          ]
+        },
+        "2025-09-30": {
+          "count": 1,
+          "sample": [
+            {
+              "REPORT_DATE": "2025-09-30 00:00:00",
+              "SECURITY_CODE": "600368",
+              "REPORT_TYPE": "三季报",
+              "NOTICE_DATE": "2025-10-28 00:00:00",
+              "UPDATE_DATE": "2026-10-31 00:00:00",
+              "TOTAL_OPERATE_INCOME": 1034430766.23,
+              "OPERATE_COST": 439891491.38,
+              "NETPROFIT": 506800808.5,
+              "PARENT_NETPROFIT": 508320670.85
+            }
+          ]
+        }
+      },
+      "sample": [
+        {
+          "REPORT_DATE": "2026-09-30 00:00:00",
+          "SECURITY_CODE": "600368",
+          "REPORT_TYPE": "三季报",
+          "NOTICE_DATE": "2026-10-31 00:00:00",
+          "UPDATE_DATE": "2026-10-31 00:00:00",
+          "TOTAL_OPERATE_INCOME": 953027148.16,
+          "OPERATE_COST": 371525484.3,
+          "NETPROFIT": 492293746.44,
+          "PARENT_NETPROFIT": 491329524.46
+        },
+        {
+          "REPORT_DATE": "2026-06-30 00:00:00",
+          "SECURITY_CODE": "600368",
+          "REPORT_TYPE": "中报",
+          "NOTICE_DATE": "2026-08-22 00:00:00",
+          "UPDATE_DATE": "2026-08-22 00:00:00",
+          "TOTAL_OPERATE_INCOME": 625210640.94,
+          "OPERATE_COST": 251941873.13,
+          "NETPROFIT": 314705521.17,
+          "PARENT_NETPROFIT": 313885196.21
+        },
+        {
+          "REPORT_DATE": "2026-03-31 00:00:00",
+          "SECURITY_CODE": "600368",
+          "REPORT_TYPE": "一季报",
+          "NOTICE_DATE": "2026-04-25 00:00:00",
+          "UPDATE_DATE": "2026-04-25 00:00:00",
+          "TOTAL_OPERATE_INCOME": 335880263.84,
+          "OPERATE_COST": 124376991.49,
+          "NETPROFIT": 197673948.42,
+          "PARENT_NETPROFIT": 197163907.76
+        }
+      ]
+    },
+    {
+      "key": "directory.aggregate",
+      "market": "ALL",
+      "group": "directory",
+      "source": "SSE/SZSE/BSE",
+      "interface": "stock_info_a_code_name",
+      "params": {},
+      "date_field": null,
+      "fields": [
+        "name"
+      ],
+      "key_field": "code",
+      "symbols": [
+        "600519",
+        "000333",
+        "920799"
+      ],
+      "focus_dates": [],
+      "as_of": "2026-11-10T02:00:00+08:00",
+      "started_at": "2026-11-10T02:07:34+08:00",
+      "finished_at": "2026-11-10T02:07:45+08:00",
+      "elapsed_seconds": 10.758,
+      "status": "returned",
+      "rows": 5580,
+      "columns": [
+        "code",
+        "name"
+      ],
+      "absent_fields": [],
+      "null_counts": {
+        "code": 0,
+        "name": 0
+      },
+      "symbol_matches": {
+        "600519": 1,
+        "000333": 1,
+        "920799": 1
+      },
+      "sample": [
+        {
+          "code": "000333",
+          "name": "美的集团"
+        },
+        {
+          "code": "600519",
+          "name": "贵州茅台"
+        },
+        {
+          "code": "920799",
+          "name": "艾融软件"
+        }
+      ]
+    }
+  ]
+}

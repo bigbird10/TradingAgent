@@ -1,0 +1,278 @@
+{
+  "schema_version": "1",
+  "security_id": "SZ.002415",
+  "valuation_cutoff": "2026-11-09T15:00:00+08:00",
+  "retrieved_at": "2026-11-11T15:10:28+08:00",
+  "query": {
+    "endpoint": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+    "method": "POST",
+    "request": {
+      "pageNum": 1,
+      "pageSize": 30,
+      "column": "szse",
+      "tabName": "fulltext",
+      "plate": "",
+      "stock": "002415,9900012688",
+      "searchkey": "",
+      "secid": "",
+      "category": "",
+      "trade": "",
+      "seDate": "2026-10-01~2026-11-09",
+      "sortName": "",
+      "sortType": "",
+      "isHLtitle": "true"
+    },
+    "also_verified_with": "AkShare stock_zh_a_disclosure_report_cninfo",
+    "akshare_version": "1.20.36",
+    "response_page_metadata": {
+      "classifiedAnnouncements": null,
+      "totalSecurities": 0,
+      "totalAnnouncement": 24,
+      "totalRecordNum": 24,
+      "categoryList": null,
+      "hasMore": false,
+      "totalpages": 0
+    },
+    "announcements": [
+      {
+        "announcementId": "1225655731",
+        "announcementTitle": "关于为子公司提供担保的进展公告",
+        "announcementTime": 1793721600000,
+        "adjunctUrl": "finalpage/2026-11-04/1225655731.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225655730",
+        "announcementTitle": "国浩律师（杭州）事务所关于公司2026年第一次临时股东会之法律意见书",
+        "announcementTime": 1793721600000,
+        "adjunctUrl": "finalpage/2026-11-04/1225655730.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225655729",
+        "announcementTitle": "2026年第一次临时股东会决议公告",
+        "announcementTime": 1793721600000,
+        "adjunctUrl": "finalpage/2026-11-04/1225655729.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607881",
+        "announcementTitle": "2026年第三季度报告（英文版）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607881.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607880",
+        "announcementTitle": "闲置资金管理制度（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607880.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607879",
+        "announcementTitle": "公司章程（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607879.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607878",
+        "announcementTitle": "董事会议事规则（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607878.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607877",
+        "announcementTitle": "董事会审计委员会工作细则（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607877.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607876",
+        "announcementTitle": "董事会秘书工作细则（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607876.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607875",
+        "announcementTitle": "总经理工作细则（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607875.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607874",
+        "announcementTitle": "内部审计制度（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607874.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607873",
+        "announcementTitle": "信息披露管理制度（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607873.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607872",
+        "announcementTitle": "控股股东、实际控制人行为规范（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607872.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607871",
+        "announcementTitle": "董事、高级管理人员离职管理制度（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607871.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607870",
+        "announcementTitle": "股东会议事规则（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607870.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607869",
+        "announcementTitle": "对外投资管理制度（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607869.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607868",
+        "announcementTitle": "董事会提名委员会工作细则（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607868.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607867",
+        "announcementTitle": "董事、高级管理人员所持本公司股份及其变动管理制度（2026年10月）",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607867.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607866",
+        "announcementTitle": "关于修订《公司章程》及部分治理制度的公告",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607866.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607865",
+        "announcementTitle": "关于聘任证券事务代表的公告",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607865.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607864",
+        "announcementTitle": "关于召开2026年第一次临时股东会的通知",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607864.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607863",
+        "announcementTitle": "第六届董事会第十一次会议决议公告",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607863.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225607861",
+        "announcementTitle": "2026年三季度报告",
+        "announcementTime": 1792166400000,
+        "adjunctUrl": "finalpage/2026-10-17/1225607861.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      },
+      {
+        "announcementId": "1225598337",
+        "announcementTitle": "关于公司控股股东一致行动人拟非公开发行可交换公司债券的提示性公告",
+        "announcementTime": 1791561600000,
+        "adjunctUrl": "finalpage/2026-10-10/1225598337.PDF",
+        "secCode": "002415",
+        "orgId": "9900012688"
+      }
+    ],
+    "timestamp_precision": "Use displayed dates. The numeric announcementTime is preserved as supplied and is not independently verified as an exact public timestamp."
+  },
+  "official_documents": [
+    {
+      "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2025-09-09/8f1b2a24-bc74-46f2-9074-fa59bc0b461d.PDF",
+      "publication_date": "2025-09-09",
+      "finding": "2025-09-04 completed CSDC cancellation; 68,326,776 previously repurchased A shares; total changed from 9,233,198,326 to 9,164,871,550. Do not deduct cancelled shares twice.",
+      "local_path": "docs/validation/ta08-a-sz-cancellation-2025-040.pdf",
+      "sha256": "761bc6a23d534c9813d5f503c4fa0462d50660a18a8ae7f37d61a7d447fe9cab",
+      "size_bytes": 113640
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607879.PDF",
+      "publication_date": "2026-10-17",
+      "finding": "Articles 6, 18 and 21 disclose registered capital RMB 9,164,871,550, RMB 1 par value, and all 9,164,871,550 issued shares RMB ordinary.",
+      "local_path": "docs/validation/ta08-a-sz-charter-2026-10.pdf",
+      "sha256": "04b2de11664c5093e8491bda48a66fa29a86d70dc8391d6a17d1423bee29b136",
+      "size_bytes": 323284
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-11-04/1225655729.PDF",
+      "publication_date": "2026-11-04",
+      "finding": "Shareholders approved the revised articles at the 2026-11-03 meeting. The announcement does not provide an independent CSDC position as at 2026-11-09.",
+      "local_path": "docs/validation/ta08-a-sz-charter-approval-2026-033.pdf",
+      "sha256": "60e57e08552a991fee5112a5e6ecd47f04769c0d735858f8878be86b7bc2a83c",
+      "size_bytes": 97277
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-10/1225598337.PDF",
+      "publication_date": "2026-10-10",
+      "finding": "Controlling shareholder concert party's intended exchangeable bond, not new share issuance by issuer.",
+      "local_path": "docs/validation/ta08-a-sz-exchangeable-bond.pdf",
+      "sha256": "23466655ad1e0b35f4cb0a1ccd3c3d87d59d70743d2df1bf90799f91966a926f",
+      "size_bytes": 72513
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-25/1225440236.PDF",
+      "publication_date": "2026-07-25",
+      "finding": "Shares table: 9,164,871,550, all RMB ordinary including restricted shares; consolidated and separate statement of changes in equity present dash for treasury shares at June 30."
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-10-17/1225607861.PDF",
+      "publication_date": "2026-10-17",
+      "finding": "September 30 balance sheet: share capital 9,164,871,550, no separately stated treasury-share line. Omission alone is not affirmative zero treasury evidence."
+    }
+  ],
+  "coverage": "Unfiltered issuer full-text results, 2026-10-01 through 2026-11-09, one page. October 10 concert party proposed exchangeable bond, October 17 Q3 and governance publications, November 4 vote, legal opinion and guarantee. No additional published issuer share repurchase, cancellation or capital increase appeared.",
+  "qualification": "Public disclosure chronology and the charter support 9,164,871,550 single-class A shares as the current L1 candidate; public review does not establish absence of undisclosed events or replace a CSDC as-of register. H1 treasury evidence, 2025 cancellation, and the screened chronology are corroboration. The Q3 consolidated report omits the treasury line; explicit November 9 treasury account balance was not obtained. Do not derive capital from supplier market cap or equate this evidence to strict historical PIT."
+}
